@@ -502,4 +502,4 @@ if __name__ == "__main__":
     print("Open: http://127.0.0.1:8000")
     print("Spotify client configured:", bool(SPOTIFY_CLIENT_ID))
     print("Ollama model:", choose_ollama_model() or "NONE (fallback mode)")
-    ThreadingHTTPServer(("127.0.0.1", 8000), Handler).serve_forever()
+    ThreadingHTTPServer(("0.0.0.0", int(os.environ.get("PORT", 8000))), Handler).serve_forever()
