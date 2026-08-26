@@ -1,15 +1,50 @@
-AIRGAP — stable playback/AI ordering fix
+# AIRGAP
 
-This build fixes a request-order bug where the AI result list was rendered AFTER playback started.
-The chosen track index therefore pointed into the previous request's Spotify result list, causing:
-Bahubali -> Korean -> relaxing to play one request behind.
+> a spatial music deck where you don't search for music — you tell it what you want to hear.
 
-It now:
-- plays the exact chosen track object returned by the current AI request
-- renders the current result list before playback
-- ignores stale AI responses if a newer request was submitted
-- keeps Spotify/local playback controls from racing
+[ **LIVE DECK →**](https://airgap-b4hs.onrender.com/)
 
-Run:
-python app.py
-Then open http://127.0.0.1:8000
+![AIRGAP](./airgap-preview.png)
+
+---
+
+## THE IDEA
+
+AirGap turns music discovery into a space.
+
+Instead of navigating a conventional music player, you can describe what you want to hear and let the deck translate that intent into music.
+
+Search. Ask. Play.
+
+No playlists required.
+
+---
+
+## INSIDE THE DECK
+
+- 🎧 Natural-language music requests
+- 🎧 Spotify search and playback
+- 🎧 Spatial album-art interface
+- 🎧 Conversational music discovery
+- 🎧 Local AI fallback through Ollama
+- 🎧 Direct playback controls
+- 🎧 Real-time track results
+
+---
+
+## HOW IT WORKS
+
+```text
+        YOUR REQUEST
+             ▼
+         AIRGAP UI   
+             ▼
+       MUSIC INTENT
+        ┌────┴────┐
+        ▼         ▼
+     Spotify    Ollama
+        └────┬────┘
+             ▼
+       TRACK RESULTS
+             ▼
+        PLAYBACK DECK
