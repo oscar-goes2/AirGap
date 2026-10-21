@@ -16,7 +16,7 @@ Instead of navigating a conventional music player, you can describe what you wan
 
 Search. Ask. Play.
 
-No playlists required. NEED TO CONNECT TO SPOTIFY PREMIUM ACCOUNT THOUGH TO USE BECAUSE IT LISTS MUSIC THROUGH SPOTIFY.
+No playlists required. NEED TO CONNECT TO SPOTIFY PREMIUM ACCOUNT THOUGH TO USE IT.
 
 ---
 
