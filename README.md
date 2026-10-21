@@ -14,7 +14,7 @@ AirGap turns music discovery into a space.
 
 Instead of navigating a conventional music player, you can describe what you want to hear and let the deck translate that intent into music.
 
-Search. Ask. Play.
+Search. Ask. Play. Enjoy.
 
 No playlists required. NEED TO CONNECT TO SPOTIFY PREMIUM ACCOUNT THOUGH TO USE IT.
 
