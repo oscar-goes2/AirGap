@@ -1,6 +1,6 @@
 # AIRGAP
 
-> a spatial music deck where you don't search for music — you tell it what you want to hear.
+> a spatial music deck where you don't search for music- you tell it what you want to hear.
 
 [ **LIVE DECK →**](https://airgap-b4hs.onrender.com/)
 
